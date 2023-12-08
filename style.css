@@ -8,12 +8,12 @@ body {
 }
 
 .color {
-    color: rgb(163, 54, 123);
+    color: orangered;
 }
 
 .flex {
     display: flex;
-    background-image: url(images/top-banner.png);
+    padding-bottom: 50px;
 }
 
 .half-width {
@@ -28,9 +28,27 @@ body {
 
 .hire-me {
     text-decoration: none;
-    background: rgb(240, 35, 154);
+    background-image: linear-gradient(salmon, magenta);
     color: white;
     padding: 10px 20px;
     font-weight: 700;
+    border-radius: 10px;
+
+}
+
+.background-image1 {
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.background-image2 {
+
+
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 
 }
